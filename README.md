@@ -28,7 +28,7 @@ public void listenerProcessamentoQueue(@Payload String descricao) {
 }
 ```
 
-🔗 Serviço Producer (Envio de Mensagens)
+🔗 Serviço Consumer (Consumo de Mensagens)
 Este serviço depende do microserviço pedido que envia as mensagens para a fila do RabbitMQ.
 
 📤 Acesse o repositório do Producer:
